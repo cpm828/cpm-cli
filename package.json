@@ -1,0 +1,31 @@
+{
+  "name": "cpm-cli",
+  "version": "0.1.6",
+  "description": "cpm-cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "chenpengmin",
+  "homepage": "https://github.com/cpm828/cpm-cli",
+  "keywords": [
+    "cli",
+    "cpm",
+    "cpm-cli"
+  ],
+  "license": "ISC",
+  "bin": {
+    "cpm-cli": "index.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "chalk": "^4.1.0",
+    "commander": "^5.1.0",
+    "download-git-repo": "^3.0.2",
+    "fs": "0.0.1-security",
+    "inquirer": "^7.2.0",
+    "log-symbols": "^4.0.0",
+    "ora": "^4.0.4",
+    "shell": "^0.5.0"
+  }
+}
