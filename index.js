@@ -168,7 +168,7 @@ program
   .version(require('./package.json').version)
   .command('init <projectName>')
   .action((projectName) => {
-    if (fs.existsSync(`${process.cwd()}/${projectName}`)) {
+    if (fs.existsSync(projectName)) {
       console.log(symbols.error, chalk.red(`project ${projectName} already exist`));
       return;
     }
